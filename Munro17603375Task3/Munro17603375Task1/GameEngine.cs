@@ -92,6 +92,10 @@ namespace Munro17603375Task1
 
             }
         }
+        public void clear()
+        {
+            m.clearGame();
+        }
         public void collect()
         {
             m.generateMoney();

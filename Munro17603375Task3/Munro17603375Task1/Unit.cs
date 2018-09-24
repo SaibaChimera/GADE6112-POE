@@ -31,7 +31,6 @@ namespace Munro17603375Task1
             this.name = name;
         }
         #endregion
-        //destructor
         ~Unit()
         {
 

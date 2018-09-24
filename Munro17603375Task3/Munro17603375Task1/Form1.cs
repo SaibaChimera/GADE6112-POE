@@ -88,6 +88,7 @@ namespace Munro17603375Task1
 
         private void btnRead_Click(object sender, EventArgs e)
         {
+            engine.clear();
             engine.read();
         }
 

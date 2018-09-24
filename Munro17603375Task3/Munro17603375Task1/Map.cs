@@ -110,6 +110,16 @@ namespace Munro17603375Task1
             }
 
         }
+        public void clearGame()
+        {
+            unitsOnMap.Clear();
+            structuresOnMap.Clear();
+            resourcesOnMap.Clear();
+            neutralCamps.Clear();
+            towers.Clear();
+            count = 0;
+            populateMap();
+        }
         public void moveUnits(int v, int newX, int newY)
         {
             if ((newX >= 0 && newX < 20) && (newY >= 0 && newY <= 20)) 

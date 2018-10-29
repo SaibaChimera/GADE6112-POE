@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1976745104464222}
+  m_IsPrefabAsset: 1
+--- !u!1 &1976745104464222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4602976185677992}
+  - component: {fileID: 114052024838422664}
+  m_Layer: 0
+  m_Name: GameEngine
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4602976185677992
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976745104464222}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.786629, y: -2.59, z: -0.5303693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114052024838422664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1976745104464222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7da1e61d5c52f248b5147ca2b0701bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floor: {fileID: 1631759247524256, guid: 1548fc9e5d2f83d46a49a7a824cea91b, type: 2}
+  neutralCreep: {fileID: 1604506453389342, guid: 3562117d53e344d4bb1d05d9f0638707,
+    type: 2}
+  purpleMelee: {fileID: 1522470409696640, guid: f32614a4f2057db49bb1af69512a76d1,
+    type: 2}
+  purpleRange: {fileID: 1543309305041368, guid: 29e5a390be954b545a5bd9c1b4074ad3,
+    type: 2}
+  yellowMelee: {fileID: 1319976106168712, guid: 9f0d0b57bb70280499e542bb140170f3,
+    type: 2}
+  yellowRange: {fileID: 1449402899415676, guid: c09cfb5632d711148b6ddfe2cabd55e6,
+    type: 2}
+  purpleMeleeState2: {fileID: 1342398975472020, guid: a430627e7acab46478c5603c1dbe10ab,
+    type: 2}
+  purpleRangeState2: {fileID: 1207140572097492, guid: 19cc6068c912d0042b3f3cde33bdaa2f,
+    type: 2}
+  yellowMeleeState2: {fileID: 1251593031410102, guid: 322ba81b6e1175c4f9fa29c4bf33006e,
+    type: 2}
+  yellowRangeState2: {fileID: 1941376490060856, guid: 4a4009fd26d8c7c4ea1121ed241f8d7f,
+    type: 2}
+  purpleMeleeState3: {fileID: 1241424852757820, guid: d6061c44546f84448ac79ea7e3d96c30,
+    type: 2}
+  purpleRangeState3: {fileID: 1903041446271818, guid: b675a67192e9ca044ac6edb2ecc1e155,
+    type: 2}
+  yellowMeleeState3: {fileID: 1192075664702282, guid: 023723e2b131a1a42b6dcd98b0871c6e,
+    type: 2}
+  yellowRangeState3: {fileID: 1147950503461660, guid: 8764a32aff6ca664ca86e991dc95a3fc,
+    type: 2}
+  purpleMeleeState4: {fileID: 1678864779909870, guid: fbfb13cb040dcf442b404a2fa4a5cd1b,
+    type: 2}
+  purpleRangeState4: {fileID: 1280991819779602, guid: 96b4b64345ff8a3448cdbc9d35311483,
+    type: 2}
+  yellowMeleeState4: {fileID: 1473680655131940, guid: 86d315d4ba753654fa11ae32590d19ba,
+    type: 2}
+  yellowRangeState4: {fileID: 1196010735056704, guid: cd7dcac9950217e4586049d83e4b452a,
+    type: 2}
+  grass: {fileID: 1073128660553090, guid: f15462f8be418244182f7983f2109a4a, type: 2}
+  yellowVillage: {fileID: 1756570758181770, guid: 16d8e8dc731e87249a680c3ee522e9eb,
+    type: 2}
+  purpleVillage: {fileID: 1475110054723466, guid: a292fa84684f7514f94ceb37db7441ee,
+    type: 2}
+  yellowVillageState2: {fileID: 1386683129142704, guid: 2b667661d07c94a40ab66b4098b125a2,
+    type: 2}
+  purpleVillageState2: {fileID: 1730454230387632, guid: b2aae60b8bb51fb4bb8323c17ed49845,
+    type: 2}
+  yellowVillageState3: {fileID: 1119614817491840, guid: a7f227f11a2300d41915f69fe2396302,
+    type: 2}
+  purpleVillageState3: {fileID: 1581587577754048, guid: 00cc8061a8d816642b65170ad1345528,
+    type: 2}
+  purpleTower: {fileID: 1972231841855772, guid: dc738f4ee61db4f45ba6fe387c9b36d7,
+    type: 2}
+  yellowTower: {fileID: 1413148781105608, guid: ddb7bd0568dd1844c971d127451ea95e,
+    type: 2}
+  purpleGoldmine: {fileID: 1457036078944124, guid: 994375f0581680148b09a91df107dc48,
+    type: 2}
+  yellowGoldmine: {fileID: 1857102349258862, guid: e9050dddd5cf8f949a308003782f02b3,
+    type: 2}
+  neutralCamp: {fileID: 1231004231918478, guid: b5e6d790ba0c188448b67d6c1f7b5df3,
+    type: 2}
+  height: 20
+  width: 20
